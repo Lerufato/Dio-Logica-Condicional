@@ -36,3 +36,14 @@ São estruturas que tem a capacidade de direcionar o fluxo de execução do cód
 - if - usar para expressões booleanas
 - evitar o uso de muitos if's aninhados e em flecha
 - usar o default do switch para apontar um valor errado, não usar para casos genéricos
+
+## Blocos
+
+São grupos de 0 ou mais códigos que trabalham em conjunto para executar uma operação. 
+É representado com uso de chaves {}
+
+### Tipos:
+
+- Locais: dentro de métodos
+- Estáticos: dentro de classes
+- Instância: dentro de classes
