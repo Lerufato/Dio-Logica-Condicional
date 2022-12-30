@@ -19,3 +19,20 @@ São  símbolos especiais capazes de realizar comparações lógicas entre opera
 - Disjunção: ambos os operandos ou expressões são falsos (|| - or)
 - Disjunção exclusiva: operações que só são verdade quando ambos os operandos são opostos(^)
 - Negação: operação que inverte o valor lógico de um operando ou expressão(!)
+
+## Controle de Fluxo
+
+São estruturas que tem a capacidade de direcionar o fluxo de execução do código.
+
+### Tipos:
+
+- Decisão: if, if-else, if-else-if, switch, e operador ternário
+- Repetição: for, while, do while
+- Interrupção: break, continue, return
+
+### Boas Práticas:
+
+- switch - usar para valores exatos
+- if - usar para expressões booleanas
+- evitar o uso de muitos if's aninhados e em flecha
+- usar o default do switch para apontar um valor errado, não usar para casos genéricos
